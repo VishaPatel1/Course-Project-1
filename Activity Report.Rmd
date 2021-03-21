@@ -1,4 +1,7 @@
 Activity Report 
 =================
-
-kf
+I will first read in the data and show a summary of the information.  
+```{r}
+library(data.table)
+data <- read.table("./activity.csv", header = T)
+summary(data)
